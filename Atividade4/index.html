@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jornal Agora</title>
+</head>
+
+<body>
+    <header class="barra-topo">
+        <div class="barra-topo-interna">
+            <h1 class="logo">
+                <span class="marca">Agora</span>
+                <span>Notícias</span>
+            </h1>
+            <form class="busca">
+                <input type="text" placeholder="Buscar…" />
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="menu-interno">
+            <a class="item-menu item-menu--ativo" href="#">Últimas</a>
+            <a class="item-menu" href="#">Brasil</a>
+            <a class="item-menu" href="#">Mundo</a>
+            <a class="item-menu" href="#">Tecnologia</a>
+            <a class="item-menu" href="#">Cultura</a>
+            <a class="item-menu" href="#">Esportes</a>
+        </div>
+    </nav>
+
+    <main class="conteudo">
+        <section class="coluna-principal">
+            <article class="cartao destaque">
+                <div class="capa">Imagem de destaque</div>
+                <div class="corpo">
+                    <span class="etiqueta">Tecnologia</span>
+                    <h2 class="titulo">Notícia 1</h2>
+                    <p class="meta">Por Redação • há 2 horas</p>
+                    <p class="texto">Empresas aceleram a adoção de modelos de linguagem para atendimento, análise de
+                        dados e
+                        criação de conteúdo. Especialistas apontam cuidados com governança e privacidade.</p>
+                </div>
+            </article>
+
+            <section class="cartao lista-noticias">
+                <article class="item-noticia">
+                    <div class="miniatura">Foto</div>
+                    <div class="conteudo-noticia">
+                        <h3 class="titulo-noticia">Mercado abre em alta com expectativa de cortes de juros</h3>
+                        <p class="descricao-noticia">Índices futuros sinalizam dia positivo enquanto investidores
+                            aguardam dados de
+                            inflação.</p>
+                        <p class="meta-noticia">Economia • há 30 min</p>
+                    </div>
+                </article>
+                <article class="item-noticia">
+                    <div class="miniatura">Foto</div>
+                    <div class="conteudo-noticia">
+                        <h3 class="titulo-noticia">Seleção vence amistoso e testa novas formações</h3>
+                        <p class="descricao-noticia">Com mudanças no segundo tempo, equipe mantém intensidade e cria
+                            boas
+                            oportunidades.</p>
+                        <p class="meta-noticia">Esportes • há 1 h</p>
+                    </div>
+                </article>
+                <article class="item-noticia">
+                    <div class="miniatura">Foto</div>
+                    <div class="conteudo-noticia">
+                        <h3 class="titulo-noticia">Cidades discutem plano de mobilidade com foco em ciclovias</h3>
+                        <p class="descricao-noticia">Prefeituras ampliam consultas públicas para definir prioridades de
+                            infraestrutura.</p>
+                        <p class="meta-noticia">Brasil • hoje</p>
+                    </div>
+                </article>
+                <article class="item-noticia">
+                    <div class="miniatura">Foto</div>
+                    <div class="conteudo-noticia">
+                        <h3 class="titulo-noticia">Startups de saúde recebem novos investimentos</h3>
+                        <p class="descricao-noticia">Rodadas de financiamento devem acelerar soluções de telemedicina e
+                            diagnóstico.</p>
+                        <p class="meta-noticia">Tecnologia • hoje</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <aside class="coluna-lateral">
+            <section class="cartao caixa-lateral">
+                <h2 class="titulo-lateral">Em alta</h2>
+                <article class="item-tendencia">
+                    <div class="num-tendencia">1</div>
+                    <div>
+                        <h3 class="titulo-noticia">Novas regras de viagens entram em vigor</h3>
+                        <p class="meta-noticia">Mundo • 3 min</p>
+                    </div>
+                </article>
+                <article class="item-tendencia">
+                    <div class="num-tendencia">2</div>
+                    <div>
+                        <h3 class="titulo-noticia">Aplicativo de mensagem lança recurso de voz</h3>
+                        <p class="meta-noticia">Tecnologia • 20 min</p>
+                    </div>
+                </article>
+                <article class="item-tendencia">
+                    <div class="num-tendencia">3</div>
+                    <div>
+                        <h3 class="titulo-noticia">Cinema nacional estreia comédia romântica</h3>
+                        <p class="meta-noticia">Cultura • 1 h</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="cartao caixa-lateral">
+                <h2 class="titulo-lateral">Newsletter</h2>
+                <p class="descricao-noticia">Receba um resumo diário das principais notícias no seu e-mail.</p>
+                <form style="display:flex; gap:8px; margin-top:12px;">
+                    <input type="email" placeholder="seu@email.com" />
+                    <button>Assinar</button>
+                </form>
+            </section>
+        </aside>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2025 Jornal Agora</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+.barra-topo {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+}
+
+.barra-topo-interna {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.marca {
+    font-weight: bold;
+}
+
+.busca input {
+    padding: 5px;
+}
+
+.busca button {
+    padding: 5px 10px;
+}
+
+.menu {
+    background: #333;
+}
+
+.menu-interno {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.item-menu {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item-menu--ativo {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.conteudo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.coluna-principal {
+    flex: 2;
+}
+
+.coluna-lateral {
+    flex: 1;
+}
+
+.cartao {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destaque .capa {
+    background: #ddd;
+    height: 180px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etiqueta {
+    background: #0077cc;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.titulo {
+    margin: 10px 0;
+}
+
+.texto {
+    color: #555;
+}
+
+.lista-noticias .item-noticia {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.miniatura {
+    background: #ccc;
+    width: 80px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-noticia {
+    margin: 0;
+}
+
+.meta-noticia {
+    font-size: 12px;
+    color: #888;
+}
+
+.descricao-noticia {
+    color: #555;
+}
+
+.caixa-lateral .item-tendencia {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.num-tendencia {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.titulo-lateral {
+    margin-bottom: 10px;
+}
+
+.rodape {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
